@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+*{
+    margin: 0%;
+   
+}
+
+body{
+    font-family: kufam;
+    max-width: 100%;
+    overflow-x:hidden;
+    
+}
+
+hr{
+    border-color: white;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 12;
+}
+
+.nav{
+    list-style:none;
+    background-color: #002D62;
+    height: 36px;  
+}
+
+.nav li{
+    color: white;
+    float: right;
+    padding: 0.5vw 0.5vw;
+    border-left: 1px solid white;
+   
+    border-radius: 20%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.nav a:hover{
+    background-color: white;
+    color: #002D62;
+}
+
+.logo{
+    background-color: #002D62;
+    height: 75px;
+    border-bottom-left-radius:8%; 
+    border-bottom-right-radius:8%; 
+    shape-outside: content-box;
+    box-shadow: 0 7px 2px -2px gray;
+}
+
+.logo a{
+    position: relative;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20%;
+    line-height: 75px;
+    display:inline-block;
+}
+
+.logo p{
+    color: white;
+    top:30%;
+    position: relative;
+    right: 10px;
+    float: right;
+}
+
+
+
+#HOME{
+    background-color: white;
+    height: 500px;
+    padding-top:45px ;
+    border-bottom-left-radius: 5%;
+    z-index: 12;
+    box-shadow: 0 7px 2px -2px gray;
+}
+.TIST{
+    position: absolute;
+    align-content: center;
+    display: block;
+    float: left;
+    top: 30%;
+    width: 25%;
+    left: 14%;
+}
+
+.line{
+    position: relative;
+    height: 73%;
+    border-left: 6px solid #002D62;
+    border-right: 0px;
+    left: 50%;
+    display: inline-block;
+}
+.iedc{
+    position:absolute;
+    align-content: center;
+    display: block;
+    float: right;
+    width: 45%;
+    top: 20%;
+    right: 3%;
+}
+.MoU{
+    position:relative;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+    left: 18.5%;
+    top: 20%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#about{
+    padding: 34px;
+    position: relative;
+    background-color: #002D62;
+    z-index: -1;
+    height: 500px;
+    border-radius: -10%;
+  
+}
+
+#about h3{
+    top: 300px;
+    font-size: xx-large;
+    line-height: 10%;
+    text-align: center;
+    color: white;
+}
+#about p{
+    font-size: larger;
+    color: white;
+    text-align:center;
+}
+
+
+#gallery {
+    position: relative;
+    overflow:hidden;
+    height: 750px;
+    width: 728px;
+    margin: 0 auto;
+    border-radius: 10%;
+    box-shadow: 0 7px 2px -2px gray;
+}
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+}
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+  
+  .slide:nth-child(1) {
+    background: transparent;
+}
+  
+  .slide:nth-child(2) {
+    background: transparent;
+}
+  
+  .slide:nth-child(3) {
+    background: transparent;
+}
+  
+  .slide:nth-child(4) {
+    background: transparent;
+}
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+}
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+}
+
+  #gallery h3{
+      font-size: x-large;
+      text-align: center;
+}
+
+#events{
+    padding-right: 45px;
+    padding-left: 45px;
+    position: relative;
+    background-color: #002D62;
+    height: 850px;
+    border-radius: -10%;
+  
+}
+
+.Events_title{
+    position: relative;
+    top: 190PX;
+    color: white;
+    text-align: center;
+    font-size: 40PX;
+    z-index: -1;
+}
+
+.list_events{
+    position:relative;
+    padding: 30px;
+    border: 2px solid black;
+    margin: left;
+    color: oldlace;
+    font-weight: 1px;
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px;
+    top:60PX;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+footer .MENU{
+    position: relative;
+    top: 45px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    left: 15%;
+    width: 18%;
+    border-right: 1px solid white;
+   
+}
+
+footer .LOGO{
+    width: 18%;
+    border-right: 1px solid white;
+    position: absolute;
+    left: 45%;
+    top: 45px;
+}
+
+footer .FOLLOW{
+    position: absolute;
+    left: 75%;
+    top: 45px;
+}
+
+footer .FOLLOW a{
+    display: inLine;
+    list-style: none;
+    padding: 15px;
+    position:static;
+    align-content: center;
+}

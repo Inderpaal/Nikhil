@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRIST | IEDC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header> 
+        <ul class="nav">
+            
+            <li>
+                <a href="#events">EVENTS</a>
+            </li>
+               
+           
+            <li>
+                <a href="#gallery">GALLERY</a>
+            </li>
+                
+            
+            <li>
+                <a href="#about">ABOUT US</a>
+            </li>
+                
+           
+            <li>
+                <a href="#HOME">HOME</a>
+            </li>
+        </ul>        
+        <hr>
+        <div class="logo">
+          <a href="#"><h1>IEDC | CHRIST</h1></a><p>Date/Time: <span id="datetime"></span></p>
+        </div>
+    </header>
+
+
+    <div id="HOME">
+        <img src="TIST.png" class="TIST" width="90%">
+        <div class="line"> </div>
+        <img src="IEDC_LOGO.jpg" class="iedc" width="90%">
+        <div class="MoU"> TIST IEDC entered into an MoU with Startup village on 24th March 2015.
+        </div>
+    </div>
+
+
+    <div id="about">
+        <br><br><br><br><br>
+        <h3><u>ABOUT US</u></h3><br><br>
+        <li>Mentor of the month – TALK Series
+GUEST – Dr. Anil Joseph, (Managing Director, Geo Structurals Pvt Ltd)
+
+Latest Trends In Construction
+
+Date- 24.09.2020
+
+Department of civil engineering in association with TIST-IEDC conducted a one-day webinar on “Latest Trends In Construction” on September 24, 2020. The session was handled by Dr. Anil Joseph, (Managing Director, Geo Structurals Pvt Ltd)
+
+Speaker covered the technical and architectural aspects of the upcoming structure including the case studies of the design involved. He also covered some of the trends in all construction aspects and the processing required to meet those challenges.
+
+The talk was attended by around 70 participants including Faculty members, and students from the civil engineering department. A feedback form was collected online from the participants.
+
+Prof.Lathi Karthi, HOD, Department of Civil Engineering gave a detailed introduction and welcomed the chief guest. The technical talk was very interesting and gave the opportunity to discuss the recent technologies in construction. The basic idea of this event is to enhance the knowledge about upcoming trends in construction engineering to civil engineering students. The program was successfully concluded with a formal vote of thanks by Edwin George, IEDC Ambassador.</li>
+    </div> 
+    
+    
+    <div id="gallery">
+        <br><br><br><br><br><br>
+        <h3><u>GALLERY</u></h3><br><br>
+        <div id="slideshow">
+            <div class="slide-wrapper">
+              <div class="slide"><h1 class="slide-number"><img src="Nikhil.png"></h1></div>
+              <div class="slide"><h1 class="slide-number"><img src="sunset1.jpg"></h1></div>
+              <div class="slide"><h1 class="slide-number"><img src="sunset2.jpg"></h1></div>
+              <div class="slide"><h1 class="slide-number"><img src="sunset3.jpg"></h1></div>
+              <div class="slide"><h1 class="slide-number"><img src="sunset4.jpg"></h1></div>
+            </div>
+          </div>
+    </div>
+    <div id="events">
+        <br><br><br><br><br><br>
+        <li class="list_events" style="float: left;">
+            <p><u>Mentor of the month – TALK Series</u></p>
+            <br>
+            <p><b>Topic: Latest Trends In Construction</b></p>
+            <br>
+            <p>Date- 24.09.2020<p>
+            <br>
+            <a href='Mentor-of-the-month.html' target="_blank"><button>Click Here</button></a>
+        </li>
+        <li class="list_events"style="float:right;">
+                <p><u>Social Innovation </u><p>
+                <br>
+                <p><b>Installation of Automatic Sanitizer Dispenser Developed by TIST IEDC</b></p>
+                <br>
+                <p>Date- 13.06.2020<p>
+                <br>
+                <button class="button">Learn more</button>
+        </li>
+        <li class="list_events"style="float: left;">
+                <p><u>MENTOR OF THE MONTH- IEDC TECH-TALK Series</u><p>
+                <br>
+                <p><b>Topic: Power Frequency Control</b></p>
+                <br>
+                <p>Date- 20.02.2020<p>
+                <br>
+                <button class="button">Learn more</button>
+        </li>
+        <li class="list_events" style="float: right;">
+                <p><u>KOCHI METRO YARD at Muttom Near Aluva</u><p>
+                <br>
+                <p><b>Industrial practices through Field Visit and training at the KOCHI METRO yard, Muttom, Aluva.</b></p>
+                <br>
+                <p>Date- 28.02.2020<p>
+                <br>
+                <button class="button">Learn more</button>
+        </li>
+        <p class="Events_title">E<br>V<br>E<br>N<br>T<br>S<br></p>
+    </div>
+
+
+    <footer>
+        <div class="MENU">
+            MENU<br><br>
+            <li>
+                <a href="#HOME">HOME</a>
+            </li>
+            <li>
+                <a href="#about">ABOUT US</a>
+            </li>
+            <li>
+                <a href="#gallery">GALLERY</a>
+            </li>
+            <li>
+                <a href="#events">EVENTS</a>
+            </li>
+
+        </div>
+        <div class="LOGO">
+            <img src="TIST.png" alt="tist_logo" width="50%">
+        </div>
+        <div class="FOLLOW">
+            FOLLOW US ON<br><br>
+                <a href="#"><img src="instagram.png" width="12%"></a>
+            
+                <a href="#"><img src="facebook.png" width="9%"></a>
+            
+        </div>
+
+    </footer>
+
+
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+     </script>
+
+        
+</body>
+</html>
